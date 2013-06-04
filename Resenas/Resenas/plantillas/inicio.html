@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+	<meta charset='utf-8'>
+	<title>Inicio</title>
+</head>
+<body>
+	<header>
+		<h1>Reseñas</h1>
+		<p>Comparte tus ideas, comenta conoce personas con gustos similares</p>
+	</header>
+	<section id='principal'>		
+		<form id='formulario' method='POST' action=''>{% csrf_token %}
+			{{formulario.as_p}}
+			<input type='submit' value='Confirmar'/> </input>
+		</form>
+	</section>
+	<div id='login'>
+	</div>
+	<section id='destacados'>
+	</section>
+	<aside id='contactanos'>
+	</aside>
+	<footer>Christian Conusuelo 2013</footer>
+	</body>
+</html>
